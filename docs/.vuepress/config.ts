@@ -47,7 +47,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '《JavaScript高级程序设计》', link: '/note/js/' },
               { text: '《ES6 教程》', link: '/note/es6/' },
               { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
               {
                 text: '《TypeScript 从零实现 axios》',
                 link: '/note/typescript-axios/',
@@ -82,8 +81,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
           { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
       {
@@ -91,9 +88,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/more/',
         items: [
           { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '友情链接', link: '/friends/' },
         ],
       },
@@ -163,7 +157,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/img/more.png',
+      avatar: '/img/pm503.png',
       name: '黄不盈',
       slogan: '道冲而用之或不盈',
     },
