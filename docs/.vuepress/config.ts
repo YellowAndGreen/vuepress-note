@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "黄不盈的主页",
+      title: "YellowAndGreen",
       description: '为学日益，为道日损。损之又损，以至于无为。',
     }
   },
@@ -30,16 +30,27 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '前端',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        text: '博客',
+        link: '/blog/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: '前端文章',
-            items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
-          },
+          { text: '闲谈大学淘书之旅', link: '/pages/e81396/' },
+          { text: '考研有感', link: '/pages/f29a0c/' },
+        ],
+      },
+      {
+        text: '读书',
+        link: '/Book/',
+        // items: [
+        //   { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+        //   { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+        // ],
+      },
+      {
+        text: '技术',
+        link: '/technology/',
+        items: [
+          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
           {
             text: '学习笔记',
             items: [
@@ -65,22 +76,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               },
             ],
           },
-        ],
-      },
-      {
-        text: '页面',
-        link: '/ui/',
-        items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-        ],
-      },
-      {
-        text: '技术',
-        link: '/technology/',
-        items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
         ],
       },
       {
