@@ -117,3 +117,8 @@ author:
    12. When in eternal lines to time thou grow'st,
    13. So long as men can breathe, or eyes can see,
    14. So long lives this, and this gives life to thee.
+
+
+## Gasby
+
+In consequence I'm inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores.
